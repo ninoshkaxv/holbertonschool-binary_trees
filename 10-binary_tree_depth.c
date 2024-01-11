@@ -13,7 +13,7 @@ size_t binary_tree_depth(const binary_tree_t *tree)
 	depth = 0;
 
 	/* if parent node is not null iterate to count depth*/
-	while (tree->parent != NULL)
+	while (tree != NULL && tree->parent != NULL)
 	{
 		depth++;
 		tree = tree->parent;

@@ -3,7 +3,7 @@
 /**
  * binary_tree_height - measures the height of a tree
  * @tree: ptr to the root node
- * Return: returns the height of the three
+ * Return: returns the height of the tree
 */
 
 size_t binary_tree_height(const binary_tree_t *tree)

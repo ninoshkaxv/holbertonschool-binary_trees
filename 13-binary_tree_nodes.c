@@ -5,7 +5,7 @@
 * that has at least one child
 * @tree: pointer to binary_tree_t
 *
-* Return: number of nodes 
+* Return: number of nodes
 */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
